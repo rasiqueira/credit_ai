@@ -1,0 +1,31 @@
+# Ignore virtual environments
+venv/
+
+# Ignore local development settings
+*.env
+
+# Ignore compiled Python files
+*.pyc
+
+# Ignore logs and temporary files
+logs/
+temp/
+
+# Ignore database files
+*.db
+
+# Ignore API keys and secrets
+secrets.py
+
+# Ignore Docker files
+docker-compose.yml
+Dockerfile
+
+# Ignore package files
+*.egg-info/
+dist/
+build/
+
+# Ignore IDE files
+.vscode/
+.idea/
